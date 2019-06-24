@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Brad Duy-Scanner</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+    <div class="container">
+    <br>    
+    <h4>Show your QR in front of the camera</h4>
+        <div class="row">
+            <div class="col-6"><video id="camera-content"></video></div>
+            <div class="col-2"></div>
+            <div class="col-4">
+                <h2>Your QR content is:</h2>
+                <p id="qr-content"></p>
+                <br>
+                <h3 id="author-signature" style="color: red"></h3>
+            </div>
+        </div>
+      </div>
+    <script type="text/javascript" src="camScannerQR.js"></script>
+</body>
+</html>
